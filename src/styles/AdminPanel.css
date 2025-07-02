@@ -1,0 +1,109 @@
+.admin-panel-container {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 30px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.admin-panel-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.admin-panel-container h3 {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.admin-panel-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.admin-panel-container li {
+  background: #ffffff;
+  margin-bottom: 12px;
+  padding: 15px 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-panel-container li p {
+  margin: 0;
+}
+
+.admin-panel-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  box-sizing: border-box;
+}
+
+.admin-panel-container button {
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.admin-panel-container button:hover {
+  background-color: #0056b3;
+}
+
+.admin-panel-container .cancel-btn {
+  background-color: #dc3545;
+}
+
+.admin-panel-container .cancel-btn:hover {
+  background-color: #a71d2a;
+}
+
+.admin-panel-container .form-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+.admin-panel-container .room-list,
+.admin-panel-container .hotel-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.admin-panel-container .hotel-card,
+.admin-panel-container .room-card {
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.admin-panel-container .hotel-card h4,
+.admin-panel-container .room-card h4 {
+  margin-top: 0;
+}
+
+.admin-panel-container .hotel-card p,
+.admin-panel-container .room-card p {
+  margin: 6px 0;
+}

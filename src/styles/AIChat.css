@@ -1,0 +1,49 @@
+.ai-chat-window {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  background: #f9f9f9;
+}
+
+.chat-messages {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.chat-bubble {
+  padding: 8px 12px;
+  margin: 5px 0;
+  border-radius: 10px;
+  max-width: 80%;
+}
+
+.chat-bubble.user {
+  background: #d1e7dd;
+  align-self: flex-end;
+}
+
+.chat-bubble.ai {
+  background: #e2e3e5;
+  align-self: flex-start;
+}
+
+.chat-input {
+  display: flex;
+  gap: 10px;
+}
+
+.chat-input textarea {
+  flex: 1;
+}
+
+.hotel-card {
+  border: 1px solid #aaa;
+  margin: 8px 0;
+  padding: 8px;
+  border-radius: 6px;
+  background: #fff;
+}

@@ -1,0 +1,46 @@
+.my-bookings-container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 30px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.my-bookings-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.bookings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.booking-card {
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.booking-card:hover {
+  transform: translateY(-5px);
+}
+
+.booking-card p {
+  margin: 8px 0;
+  color: #555;
+}
+
+.booking-card p strong {
+  color: #333;
+}
+
+.no-bookings {
+  text-align: center;
+  color: #888;
+  font-size: 1.2em;
+}
