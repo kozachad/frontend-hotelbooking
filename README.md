@@ -64,6 +64,3 @@ This is the frontend application for the Hotel Booking system, built with React.
 
 This project is licensed under the MIT License.
 
----
-
-**Please update the deployed URLs and any other project-specific details as needed.**
