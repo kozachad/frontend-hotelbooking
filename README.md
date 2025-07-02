@@ -6,8 +6,7 @@ This is the frontend application for the Hotel Booking system, built with React.
 
 ## 🚀 Deployed URLs
 
-- **Production URL:** [https://your-production-url.com](https://your-production-url.com)
-- **Vercel Preview:** [https://your-vercel-preview-url.vercel.app](https://your-vercel-preview-url.vercel.app)
+- **Production URL:** [https://frontend-hotelbooking.vercel.app](https://frontend-hotelbooking.vercel.app)
 
 ---
 
